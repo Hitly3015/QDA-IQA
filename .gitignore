@@ -1,0 +1,22 @@
+# macOS metadata
+.DS_Store
+._*
+
+# Python bytecode and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Downloaded datasets, model weights, and generated hidden caches
+/data/
+/weights/
+/checkpoints/
+/.cache*/
